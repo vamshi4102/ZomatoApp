@@ -16,7 +16,7 @@ export default CustomHeading;
 
 const styles = StyleSheet.create({
   head: {
-    marginVertical: 15,
+    marginVertical: 20,
   },
   border: {
     // backgroundColor:'red',
@@ -30,10 +30,12 @@ const styles = StyleSheet.create({
     alignItems:'center',
     marginTop:-10,
     backgroundColor:"white",
-    width:'35%',
     alignSelf:'center'
   },
   text: {
-    color:'#333'
+    color:'#333',
+    width:'35%',
+    backgroundColor:'#fff',
+    paddingHorizontal:10
   },
 });
